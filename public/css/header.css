@@ -1,0 +1,125 @@
+@media screen and (min-width:768px){
+    header{
+        width: 100%;
+    }
+    header>div{
+        background:#fff;
+        width: 100%;
+    }
+    header .nav{
+        width: 80%;
+        min-width: 800px;
+        height: 70px;
+        margin: 0 auto;
+        position: relative;
+    }
+    header .pic{
+        width: 80%;
+        display: flex;
+        justify-content:space-between;
+        padding-top: 1.5rem;
+        margin-left: 190px;
+    }
+    header .country{
+        width: 174px;
+        position: absolute;
+        left: 0px;top: 27px;
+    }
+    header .logo{
+        width: 120px;
+    }
+    header .phone{
+        width: 16rem;
+        height: 2rem;
+    }
+    .l-flex{
+        display: flex;
+    }
+    header .daohang{
+        display: flex;
+        width: 80%;
+        height: 70px;
+        margin-left: 12rem;
+        margin-top: 1rem;
+        background: #A1A1A1;
+        box-sizing: border-box;
+    }
+    header .daohang li{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 8rem;
+        text-align: center;
+        height: 70px;
+        cursor: pointer;
+    }
+    header .daohang li:hover{
+        background: #A32C24;
+    }
+
+    header .daohang a{
+        color:#fff;
+        display: block;
+        margin-top: 12px;
+    }
+    .daohang p{
+        margin-top: 4px;
+        font-size:12px;
+        color: #ccc;
+    }
+    header .bg{
+        width: 100%;height: 70px;
+        background: #A1A1A1;
+        margin-top: 21px;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    header .pic,header .country,header .bg{
+        display: none;
+    }
+    header .nav{
+        background: #D11f14;
+    }
+    header .m-phone{
+        width: 135px;
+        height: 37px;
+        margin-left: 10px;
+    }
+    header .san{
+        width: 30px;
+        margin-right: 10px;
+    }
+    .m-flex{
+        display: flex;
+    }
+    .nav{
+        height:50px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .m-hide{
+        display: none !important;
+    }
+    .daohang{
+        width: 6rem;
+        position: absolute;
+        text-align: center;
+        right: 30px;
+        top:50px;
+        background:rgba(255,255,255,0.8);
+    }
+    .daohang li{
+        margin-bottom: 10px;
+    }
+    .daohang p{
+        display: none !important;
+    }
+    .daohang a{
+        color: #666;
+        font-size: 0.5rem;
+    }
+    
+}

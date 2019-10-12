@@ -1,0 +1,112 @@
+@media screen and (min-width:768px){
+    .l-hide{
+        display: none !important;
+    }
+    .img_box{
+        width: 75%;
+        margin: 0.5rem auto 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img_box>div:first-child{
+        width: 56.5%;
+    }
+    .img_box>div:last-child{
+        width: 42.5%;
+    }
+    .pics{
+        width: 100%;
+        height: 100%
+    }
+    .img_box>div>div:last-child{
+        margin-top: 1%;
+    }
+    .title_2{
+        width: 75%;
+        display: flex;
+        margin: 1% auto 0;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .title_2 p:nth-child(2){
+        color:#A1A1A1;
+        font-size: 0.75rem;
+    }
+    .p_body{
+        width: 75%;
+        margin: 1% auto;
+    }
+    .p_body img{
+        width:100%;
+    }
+    .big{width: 100%;}
+}
+.main{
+        width: 100%;
+}
+    .main img{
+        width: 100%;
+}
+.title{
+    width: 280px;
+    margin: 0.25rem auto;
+    color: #666;
+    font-size: 10px;
+}
+.title img{
+    width: 100%;
+}
+.video_box{
+    width: 75%;
+    margin: 1% auto 0;
+}
+
+@media screen and (max-width:767px){
+    .m_p{
+        width: 100%;
+        cursor: pointer;
+    }
+    .video_box{
+        width: 100%;
+    }
+    .img_box{
+        width: 100%;
+        margin: 0.5rem auto 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img_box>div:first-child{
+        width: 56.5%;
+    }
+    .img_box>div:last-child{
+        width: 42.5%;
+    }
+    .pics{
+        width: 100%;
+        height: 100%
+    }
+    .img_box>div>div:last-child{
+        margin-top: 1%;
+    }
+    .title_2{
+        width: 100%;
+        display: flex;
+        margin: 1% auto 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .title_2 p:first-child{
+        font-size: 0.75rem;
+        margin:0.75rem 0; 
+    }
+    .title_2 p:nth-child(2){
+        display: none;
+    }
+    .p_body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .p_body img{
+        width:100%;
+    }
+}
